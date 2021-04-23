@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseCategory">
+
+    <TextView
+        android:id="@+id/choose_category_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:text="Choose the Cataegary" />
+
+    <Button
+        android:id="@+id/addMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        android:text="Addition" />
+
+    <Button
+        android:id="@+id/subtractionMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="230dp"
+        android:text="Subtraction" />
+
+    <Button
+        android:id="@+id/multiplicationMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="40dp"
+        android:text="Multiplication" />
+
+    <Button
+        android:id="@+id/divisionMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="270dp"
+        android:text="Division" />
+
+</RelativeLayout>

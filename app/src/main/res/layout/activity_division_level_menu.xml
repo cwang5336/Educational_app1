@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseDivisionLevel">
+
+    <TextView
+        android:id="@+id/divisionLevelMenuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:text="Division" />
+
+    <Button
+        android:id="@+id/divisionLevel1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:text="Level 1" />
+
+    <Button
+        android:id="@+id/divisionLevel2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/divisionLevel1Button"
+        android:layout_marginTop="20dp"
+        android:text="Level 2" />
+
+    <Button
+        android:id="@+id/divisionLevel3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/divisionLevel2Button"
+        android:layout_marginTop="20dp"
+        android:text="Level 3" />
+
+    <Button
+        android:id="@+id/divisionBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Back" />
+
+</RelativeLayout>
