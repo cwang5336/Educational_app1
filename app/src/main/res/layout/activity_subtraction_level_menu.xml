@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C9DCE9"
     tools:context=".chooseSubtractionLevel">
 
     <TextView
@@ -12,41 +13,56 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:scaleX="2.5"
-        android:scaleY="2.5"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:textColor="#003490"
+        android:textStyle="bold"
         android:text="Subtraction" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:id="@+id/catagoryButtonSet1">
 
     <Button
         android:id="@+id/subtractionLevel1Button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
-        android:layout_marginTop="300dp"
-        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:backgroundTint="#82C167"
+        android:textColor="#EEEEEE"
         android:text="Level 1" />
 
     <Button
         android:id="@+id/subtractionLevel2Button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/subtractionLevel1Button"
-        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="30dp"
+        android:backgroundTint="#ffe531"
+        android:textColor="#EEEEEE"
         android:text="Level 2" />
 
-    <Button
-        android:id="@+id/subtractionLevel3Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/subtractionLevel2Button"
-        android:layout_marginTop="20dp"
-        android:text="Level 3" />
+        <Button
+            android:id="@+id/subtractionLevel3Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#FF5348"
+            android:padding="10dp"
+            android:text="Level 3"
+            android:textColor="#EEEEEE"
+            android:textSize="30dp" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/subtractionBackButton"

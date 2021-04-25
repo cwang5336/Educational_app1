@@ -4,6 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#C9DCE9"
     tools:context=".chooseCategory">
 
     <TextView
@@ -11,49 +16,97 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:scaleX="2.5"
-        android:scaleY="2.5"
-        android:text="Choose the Cataegary" />
+        android:layout_marginTop="100dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:textColor="#0984FC"
+        android:textStyle="bold"
+        android:text="Choose" />
 
-    <Button
-        android:id="@+id/addMenuButton"
+    <TextView
+        android:id="@+id/choose_category_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:textColor="#0984FC"
+        android:textStyle="bold"
+        android:layout_below="@id/choose_category_text"
+        android:text="The" />
+
+    <TextView
+        android:id="@+id/choose_category_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:scaleX="4"
+        android:scaleY="4"
+        android:textColor="#0984FC"
+        android:textStyle="bold"
+        android:layout_below="@id/choose_category_text2"
+        android:text="Category" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="50dp"
-        android:text="Addition" />
+        android:gravity="center"
+        android:id="@+id/catagoryButtonSet1">
 
-    <Button
-        android:id="@+id/subtractionMenuButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="230dp"
-        android:text="Subtraction" />
+        <Button
+            android:id="@+id/addMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Addition"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:textColor="#EEEEEE"
+            android:backgroundTint="#82C167"
+            />
 
-    <Button
-        android:id="@+id/multiplicationMenuButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="40dp"
-        android:text="Multiplication" />
+        <Button
+            android:id="@+id/subtractionMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtraction"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:textColor="#EEEEEE"
+            android:backgroundTint="#ffe531"
+            />
 
-    <Button
-        android:id="@+id/divisionMenuButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleX="1.5"
-        android:scaleY="1.5"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="270dp"
-        android:text="Division" />
+        <Button
+            android:id="@+id/multiplicationMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiplication"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:textColor="#EEEEEE"
+            android:backgroundTint="#FFB54C"
+            />
+
+        <Button
+            android:id="@+id/divisionMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Division"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:textColor="#EEEEEE"
+            android:backgroundTint="#FF5348"
+            />
+
+    </LinearLayout>
 
 </RelativeLayout>

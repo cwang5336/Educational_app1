@@ -20,6 +20,33 @@ public class chooseAdditionLevel extends Activity {
             }
         });
 
+        //brings user to level 1 addition
+        findViewById(R.id.additionLevel1Button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(chooseAdditionLevel.this, additionLevel1.class);
+                chooseAdditionLevel.this.startActivity(intent);
+            }
+        });
+
+        //brings user to level 2 addition
+        findViewById(R.id.additionLevel2Button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(chooseAdditionLevel.this, additionLevel2.class);
+                chooseAdditionLevel.this.startActivity(intent);
+            }
+        });
+
+        //brings user to level 3 addition
+        findViewById(R.id.additionLevel3Button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(chooseAdditionLevel.this, additionLevel3.class);
+                chooseAdditionLevel.this.startActivity(intent);
+            }
+        });
+
 
     }
 }

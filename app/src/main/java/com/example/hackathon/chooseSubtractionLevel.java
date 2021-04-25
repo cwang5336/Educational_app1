@@ -21,6 +21,14 @@ public class chooseSubtractionLevel extends Activity {
             }
         });
 
+        //brings user to subtraction level 1
+        findViewById(R.id.subtractionLevel1Button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(chooseSubtractionLevel.this, subtractionLevel1.class);
+                chooseSubtractionLevel.this.startActivity(intent);
+            }
+        });
 
     }
 }

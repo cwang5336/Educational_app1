@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hackathon">
         <activity android:name=".chooseCategory"></activity>
+        <activity android:name=".additionLevel1"></activity>
+        <activity android:name=".additionLevel2"></activity>
+        <activity android:name=".additionLevel3"></activity>
+        <activity android:name=".subtractionLevel1"></activity>
+        <activity android:name=".multiplicationLevel1"></activity>
         <activity android:name=".chooseDivisionLevel"></activity>
         <activity android:name=".chooseMuiliplicationLevel"></activity>
         <activity android:name=".chooseSubtractionLevel"></activity>

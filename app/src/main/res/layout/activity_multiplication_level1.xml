@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/multiplicationLevel1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:text="Multiplication Level 1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:id="@+id/catagoryButtonSet1">
+
+        <TextView
+            android:id="@+id/multiplicationLevel1Number1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/multiplicationLevel1Number2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:text="5" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/black"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/multiplicationLevel1UserInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_marginLeft="150dp"
+        android:scaleX="1.8"
+        android:scaleY="1.8"
+        app:srcCompat="@drawable/ic_multiply_sign" />
+
+    <TextView
+        android:id="@+id/multiplicationLevel1Attempt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/multiplicationLevel1UserInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="onSubmitClick"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/multiplicationLevel1BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Back" />
+
+</RelativeLayout>

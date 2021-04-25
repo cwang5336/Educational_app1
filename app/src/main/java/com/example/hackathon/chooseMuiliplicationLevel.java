@@ -21,6 +21,15 @@ public class chooseMuiliplicationLevel extends Activity {
             }
         });
 
+        //brings user to multiplication level 1
+        findViewById(R.id.multiplicationLevel1Button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(chooseMuiliplicationLevel.this, multiplicationLevel1.class);
+                chooseMuiliplicationLevel.this.startActivity(intent);
+            }
+        });
+
 
     }
 }

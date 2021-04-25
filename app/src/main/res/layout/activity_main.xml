@@ -4,17 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#37B6F6">
 
     <TextView
-        android:id="@+id/main_menu_text"
+        android:id="@+id/main_menu_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:scaleX="2.5"
-        android:scaleY="2.5"
+        android:scaleX="5"
+        android:scaleY="5"
+        android:textColorHint="@color/white"
+        android:textColor="@drawable/gradient2"
         android:text="Math" />
+
+    <TextView
+        android:id="@+id/main_menu_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:scaleX="5"
+        android:scaleY="5"
+        android:layout_below="@id/main_menu_text1"
+        android:text="Village" />
 
 
     <TextView
@@ -35,9 +49,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="500dp"
         android:scaleX="2.5"
         android:scaleY="2.5"
+        android:backgroundTint="#FFA607"
         android:text="START" />
 
 
